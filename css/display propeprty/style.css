@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}.box{
+    border: 2px;
+    border: solid black;
+    /* display: inline; */
+    display: inline-block;
+    margin: 35px;
+    width: 400px;
+    padding: 45px;
+    /* display: flex; */
+    display:inline-fle;
+    justify-content: center;
+}
+.box1{
+    /* display: none; */
+    /* visibility: hidden; */
+}

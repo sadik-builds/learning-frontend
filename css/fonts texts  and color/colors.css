@@ -1,0 +1,40 @@
+h1{
+    color: green;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.color{
+    font-weight: 800
+    ;
+    color: blue;
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    text-decoration-color: black;
+    text-indent: 70px;
+    text-align: center;
+}
+#keywords{
+    color:steelblue ;
+}
+#hex{
+    color: #00ff26;
+}
+#RGB{
+    color: rgb(255, 0, 85);
+}
+#RGBA{
+    color:rgba(172, 34, 128, 0.8) ;
+}
+
+#HSL {
+  color: hsl(239, 100%, 50%);
+}
+.lorem{
+    border: 2px solid blueviolet;
+    width: 145px;
+    /* text-overflow: ellipsis;
+    overflow: hidden; */
+    word-break: break-all;
+}

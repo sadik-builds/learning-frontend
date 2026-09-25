@@ -1,0 +1,53 @@
+html {
+    font-size: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    font-size: 2rem;
+}
+
+.box {
+    border: 2px solid blueviolet;
+    /* width: 2500*1600px; */
+    width: 60vw;
+    background-color: rgb(226, 43, 43);
+    box-sizing: border-box;
+    margin: auto;
+    height: 10vh;
+}
+
+.container {
+    border: 2px solid blueviolet;
+    /* width: 2500*1600px; */
+    width: 60vw;
+    background-color: rgb(162, 226, 43);
+    box-sizing: border-box;
+    margin: 23px auto;
+    min-height: 75vh;
+
+}
+
+.container p {
+    font-size: 2em;
+    /* min-height: 75vh; */
+    /* max-height: auto; */
+    /* min-width: 65vh; */
+    width: 50%;
+    border: 2px solid black;
+}
+
+.vmin {
+    /* background-color: red; */
+    font-size: 22px;
+    box-sizing: border-box;
+    margin: 23px auto;
+    color: darkblue;
+    /* width: 100vmin; */
+    width: 80vw;
+    border: 2px solid black;
+}
