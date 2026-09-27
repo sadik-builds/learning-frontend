@@ -1,0 +1,13 @@
+.box{
+    border: 2px solid black;
+    padding: 34px;
+    box-shadow: 5px 15px 5px gray;
+    
+    display: inline-block;
+}
+.text-shadow{
+    text-shadow: 2px 2px 4px goldenrod;
+    border:3px  solid black;
+    outline: 4px solid green;
+    outline-offset: 32px;
+}

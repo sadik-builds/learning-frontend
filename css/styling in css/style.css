@@ -1,0 +1,7 @@
+nav ul li{
+    list-style: "😁";
+    background-color: yellowgreen;
+    list-style-position: inside;
+    border: 2px solid black;
+   /* list-style-image: url("image/Timeline 1_01_00_00_08-jukebox-bg-removed.png"); */
+}cd ~/Documents/learning-frotend
