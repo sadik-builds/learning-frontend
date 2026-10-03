@@ -1,0 +1,29 @@
+.box:first-child{
+    background-color: rebeccapurple ;
+    
+
+
+}
+.box:first-child::first-line{
+    color: aqua;
+}
+.boxes *{
+    color: blue;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 2px;
+}
+.box:nth-child(even){
+    background-color: gray;
+}
+.boxes::before{
+  content:"ASDFGHJHGFDSAasdfghjkjhgfdsa" ; }
+.boxes::after{
+  content:"ASDFGHJHGFDSAasdfghjkjhgfdsa" ; }
+  ::selection{
+    color: aqua;
+    background-color: black;
+  }
+  input::placeholder{
+    color: yellowgreen;
+  }
