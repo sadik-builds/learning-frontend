@@ -1,0 +1,19 @@
+.container{
+    border: 2px solid yellow;
+    display: grid;
+    grid-template-columns: 120px 100px;
+    grid-template-rows: 100px 100px 100px ;
+}
+.item{
+    border: 2px solid black;
+    height: 55px;
+    width: 55px;
+}
+.fourth{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.first{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
