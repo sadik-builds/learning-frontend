@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid practice</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="
+        display: grid;
+        grid-template-columns: 100px 100px;">
+        <div style="background-color: blueviolet">div1</div>
+        <div style="background-color: aqua;">div2 <p>text</p> </div>
+    </div>
+
+
+       <div style="
+        display: grid;
+        grid-template-columns: 100px 100px 200px;
+        margin-top: 30px;">
+        <div style="background-color: blueviolet">100px</div>
+        <div style="background-color: aqua;">100px <p>text</p> </div>
+        <div style="background-color: blueviolet">200px</div>
+    </div>
+
+       <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin-top: 30px;">
+        <div style="background-color: blueviolet">100px</div>
+        <div style="background-color: aqua;">1fr  </div>
+        
+    </div>
+       <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr 2fr;
+        margin-top: 30px;">
+        <div style="background-color: blueviolet">100px</div>
+        
+        <div style="background-color: aqua;">1fr  </div>
+        <div style="background-color: rgb(55, 255, 0);">2fr  </div>
+    </div >
+       <div style="
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr ;
+        margin-top: 30px;
+        column-gap: 20px;
+        row-gap: 40px;">
+        <div style="background-color: blueviolet; height: 200px;">100px</div>
+        
+        <div style="background-color: aqua; height: 200px;">1fr  </div>
+        <div style="background-color: rgb(55, 255, 0); height: 200px;">2fr  </div>
+        <div style="background-color: rgb(226, 177, 43); height: 200px;">100px</div>
+        
+        <div style="background-color: rgb(255, 0, 0); height: 200px;">1fr  </div>
+        <div style="background-color: rgb(255, 0, 187); height: 200px;">2fr  </div>
+    </div>
+</body>
+</html>
